@@ -14,6 +14,8 @@ header h1 {
     color: #ffffff;
     text-align: center;
     float: left;
+    padding: 20px;
+    margin 0 20px;
 }
 
 nav ul {
@@ -24,6 +26,16 @@ nav ul {
 
 nav li {
     float: right;
+    padding: 16px;
+    margin: 8px 0;
+}
+
+#index {
+    border-right: 1px solid #777777;
+}
+
+#portfolio {
+    border-right: 1px solid #777777;
 }
 
 li a {
