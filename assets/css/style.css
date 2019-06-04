@@ -1,0 +1,36 @@
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+}
+
+header {
+    background-color: #ffffff;
+}
+nav ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+nav li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: #777777;
+    background-color: 
+    text-align: center;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+}
+
+body{
+    clear: both;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+#para2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
