@@ -6,64 +6,121 @@ h3 {
 
 header {
     background-color: #ffffff;
-    margin: 10px 80px;
+    margin: 0 80px;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #777777;
+    border-bottom-width: 100%;
 }
 
 header h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    float: left;
     padding: 20px;
-    margin 0 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    font-size: 16px;
-    margin: 10px 80px;
-}
-
-nav li {
-    float: right;
-    padding: 16px;
-    margin: 8px 0;
-}
-
-#index {
-    border-right: 1px solid #777777;
-}
-
-#portfolio {
-    border-right: 1px solid #777777;
-}
-
-li a {
     display: inline-block;
-    color: #777777;
-    /* background-color:  */
-    text-align: center;
-    padding: 14px 16px;
-    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 20px;
 }
 
-body{
+nav {
+    padding: 10px;
+    /* position: relative;
+    top: 30px; */
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    left: 400px;  
+}
+
+nav a {
+    padding: 0 15px;
+    color: #777777;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    color:  #777777;
+    border: solid 2px #777777;
+    background-color: #777777;
+}
+
+a:link,
+a:visited {
+    color: #777777;
+    text-decoration: none; /* Remove underline on link*/
+}
+
+a:hover {
+    color: #777777;
+    background-color: yellow;
+}
+
+section {
+    height: 960px;
+    border: 1px solid #777777;
+    background-color: #ffffff;
+}
+
+body {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    background-image: url("assets/images/email-pattern.png");
+    background-repeat: repeat;
+    margin: 0;
 }
 
 .about_me {
-    clear: both;
     width: center;
     overflow: auto;
     /* background-color */
     margin: 10px 80px;
+    font-size: 18px;    
 }
 
 .about_me h1 {
     color: #4aaaa5;
+    margin-left: 20px;
+ }
+
+ img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#para1 {
+    float: left;
+    width: 70%;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
  }
 
 #para2 {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    clear: both;
+    overflow: auto;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 20px;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 18px;
+  }
