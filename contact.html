@@ -8,18 +8,35 @@
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     </head>
     <body>
-        <header>
-            <h1>Peter Walker</h1>
-        </header>
-        <nav>
-                <a id="index" href="index.html">About</a> |
-                <a id="portfolio" href="portfolio.html">Portfolio</a> |
-                <a id="contact" href="contact.html">Contact</a>
-        </nav>
-    
-        <section>
+        <div id="header">
+                <h1 id="peterw">Peter Walker</h1>
+                <nav>
+                    <a id="index" href="index.html">About</a> |
+                    <a id="portfolio" href="portfolio.html">Portfolio</a> |
+                    <a id="contact" href="contact.html">Contact</a>
+                </nav>
+        </div>
 
+        <div id="mycontact">
+                <h1 id="contact_header">Contact</h1>
+                <hr>
+
+        <section class="form">
+            
+            <label for="Name">Name</label>
+            <br>
+            <input class="name" type="text" name="name" id="name" placeholder="Name" required>
+            <br><br>
+            <label for="Email">Email</label>
+            <br>
+            <input class="email" type="text" name="email" id="email" placeholder="Email" required>
+            <br><br>
+            Message
+            <textarea class="message_area" id="message_area" name="Message" rows="12px" cols="40px" required></textarea> 
+            <br>
+            <button class="btn_submit">Submit</button>
         </section>
+        </div>
 
         <footer>
             Copyright &copy;
