@@ -12,58 +12,35 @@ body {
 }
 
 #headwrapper {
-    /* margin: 0 auto; */
-    width: 100%;
-    /* max-width: 960px; */
     background-color: #ffffff;
-    text-align: center;
     border-bottom: 2px solid #cccccc;
     border-bottom-width: 100%;
     padding: 0 0 12px 0;
-    margin-top: 10px;
+    margin: 0 auto;
     margin-bottom: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 #peterw {
+    text-align: center;
     color: white;
     background-color: #4aaaa5;
     padding: 12px 20px;
     display: inline;
-    /* text-align: center; */
-    margin-left: 24px;
-    margin-right: 160px;
-    /* margin: 0 auto; */
-    /* background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    /* position: absolute;
-    top: 0;
-    left: 80px;
-    display: inline; */
-    /* float: left; */
+    margin-right: 80px;
+    margin-left: 44px;
 }
 
 #navigate {
     text-align: center;
+    width: 400px;
+    margin-left: 240px;
     color: #777777;
     font-size: 18px;
-    display: inline;
-    margin-left: 160px;
-    margin-right: 50px;
+    display: inline-block;
     padding: 0px 5px 5px 15px;
-    /* padding: 10px;
-    /* position: relative;
-    top: 0px;
-    left: 370px;
-    display: inline-block; */
-    /* float: right;
-    padding: 20px;
-    margin: 30px auto;
-    font-size: 18px; */
 }
 
 span {
@@ -94,11 +71,6 @@ hr {
     background-color: #777777;
 }
 
-/* .wrapper-index {
-    height: 100%;
-    width: 100%;
-} */
-
 #aboutme,
 #mycontact {
     box-sizing: border-box;
@@ -106,48 +78,74 @@ hr {
     overflow: auto;
     width: 960px;
     max-width:960px;
-    /* background-color */
-    /* margin: 10px 80px; */
     font-size: 18px;
     background-color: #ffffff;
     border: 1px solid #140101;
     height: 470px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
-.myportfolio {
-    /* clear:both;
-    overflow: auto; */
+#myportfolio {
     box-sizing: border-box;
     width: 960px;
     max-width:960px;
     margin: 20px 80px;
     font-size: 18px;
     border: 1px solid #140101;
-    height: 550px;
+    height: 700px;
     margin: 0 auto;
     background-color: #ffffff;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .portfolio {
     width: center;
     overflow: auto;
-    /* background-color */
     margin: 10px 80px;
     font-size: 18px;    
 }
+
+#image1 {
+    float: left;
+    margin-left: 20px;
+}
+
+#image2 {
+    clear: float;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#image3 {
+    margin-top: 40px;
+    margin-left: 20px;
+    /* clear: float;
+    display: inline-block;
+    float: left; */
+}
+
+#image4 {
+    /* float: left; */
+    /* display: inline-block; */
+    /* display: inline; */
+    margin-left: 20px;
+}
+
+#image5 {
+
+    margin-left: 20px;
+}
+
 
 .contact {
     width: center;
     overflow: auto;
-    /* background-color */
     margin: 10px 80px;
     font-size: 18px;    
 }
 
-#about_header,
+#aboutme_header,
 #portfolio_header,
 #contact_header {
     color: #4aaaa5;
@@ -166,15 +164,13 @@ hr {
 #para1 {
     float: left;
     width: 70%;
-    /* overflow: below; */
     font-size: 18px;
     line-height: 27px;
-    /* margin-left: 10px; */
  }
 
  #para2 {
      clear: both;
-     overflow: autp;
+     overflow: auto;
      font-size: 18px;
      line-height: 27px;
      margin-left: 10px;
@@ -211,8 +207,9 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #666666;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5; /* Per HW Specs */
     color:#cccccc;
+    font-size: 16px;
     text-align: center;
-    padding: 16px;
+    padding: 12px;
   }
