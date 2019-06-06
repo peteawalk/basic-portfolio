@@ -21,20 +21,15 @@
                 <h1 id="contact_header">Contact</h1>
                 <hr>
 
-        <section class="form">
-            
-            <label for="Name">Name</label>
-            <br>
-            <input class="name" type="text" name="name" id="name" placeholder="Name" required>
-            <br><br>
-            <label for="Email">Email</label>
-            <br>
-            <input class="email" type="text" name="email" id="email" placeholder="Email" required>
-            <br><br>
-            Message
-            <textarea class="message_area" id="message_area" name="Message" rows="12px" cols="40px" required></textarea> 
-            <br>
-            <button class="btn_submit">Submit</button>
+        <section class="contact-form">
+            <form id="contact-form" method="POST" action="">
+            <span class="form-class">Name</span>
+            <input class="form-class" type="text" name="name" id="name" placeholder="Name" required><br><br>
+            <span class="form-class">Email</span>
+            <input class="form-class" type="email" name="email" id="email" placeholder="Email" required><br><br>
+            <span class="form-class">Message</span>
+            <textarea class="form-class" id="message_area" name="Message" rows="8px" cols="40px" required></textarea><br><br>
+             <button class="btn_submit">Submit</button>
         </section>
         </div>
 

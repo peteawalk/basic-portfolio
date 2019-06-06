@@ -141,28 +141,27 @@ hr {
      margin-left: 10px;
  }
 
- .name,
- .email,
- .message_area {
+form {
     margin-left: 10px;
-    margin-right: 20px;
-    width: 95%;
-    padding: 5px;
- }
+}
 
- .form {
+.form-class {
     margin-left: 10px;
- }
+    margin-right: 10px;
+    width: 96%;
+    font-size: 16px;
+    padding: 2px;
+}
 
  .btn_submit {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 20px;
     background-color: #4aaaa5;
     padding: 10px 18px;
     color: white;
     text-align: center;
     display: inline-block;
-    font-size: 18px; 
+    font-size: 16px; 
  }
 
 footer {
