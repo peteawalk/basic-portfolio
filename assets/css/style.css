@@ -13,79 +13,45 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #333333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-bottom: 10px;
-    z-index: 1;
-  }
-
-  #peterw {
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5;
-    padding: 12px 20px;
-    margin-top: 0px;
-    margin-left: 44px;
-    width: 300px;
-}
-
-li {
+ul li {
+    list-style: none;
     display: inline-block;
-    text-align: center;
-    margin: 0 auto;
+    word-spacing: 10px;
 }
 
-
-/* #headwrapper {
-        margin: 0 auto;
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    border-bottom-width: 100%;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 60px;
+li a {
+    color: #777777;
+    text-decoration: none;
+    /* Remove underline on link*/
+    word-spacing: 10px;
+    padding: 0 5px 0 0;
+    font-size: 20px;
 }
 
 #peterw {
-    text-align: center;
-    color: white;
+    margin: 0px 0px 0px 30px;
+    padding: 18px;
     background-color: #4aaaa5;
-    padding: 12px 20px;
-    display: inline-block;
-    margin-top: 0px;
-    margin-right: 180px;
-    margin-left: 44px;
-    width: 300px;
+    color: #ffffff;
+    margin-right: 440px;
 }
 
-#navigate {
-    text-align: center;
-    width: 80px;
-    margin-left: 0px;
-    margin-top: 0px;
-    color: #777777;
-    font-size: 18px;
-    display: inline-block;
-    width: 300px;
-    padding: 0px 5px 5px 15px;
+.flex {
+    display: flex;
+    /* Align vertically */
+    align-items: center;
+    /* Align horizontall centered */
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
 }
-
-
-#navigate li {
-    display: inline-block;
-    width: fit-content;
-    text-decoration: none;
-    text-align: center;
-} */
 
 a,
 a:link,
 a:visited {
     color: #777777;
-    text-decoration: none; /* Remove underline on link*/
+    text-decoration: none;
+    /* Remove underline on link*/
 }
 
 a:hover {
@@ -96,48 +62,72 @@ a:hover {
 hr {
     margin-left: 20px;
     margin-right: 20px;
-    color:  #777777;
+    color: #777777;
     border: solid 2px #777777;
     background-color: #777777;
+}
+
+aside {
+    float: left;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#para1 {
+    float: left;
+    width: 70%;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#para2 {
+    clear: both;
+    overflow: auto;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 10px;
+    width: 95%
 }
 
 #aboutme,
 #mycontact {
     box-sizing: border-box;
-    clear:both;
+    clear: both;
     overflow: auto;
     width: 960px;
-    max-width:960px;
+    max-width: 960px;
     font-size: 18px;
     background-color: #ffffff;
     border: 1px solid #140101;
     height: 500px;
     margin: 0 auto;
-    margin-top: 20px;
-    position: relative:
-    top: 120px;
+    margin-top: 50px;
+    position: relative: top: 120px;
 }
 
 #myportfolio {
     box-sizing: border-box;
     width: 960px;
-    max-width:960px;
+    max-width: 960px;
     margin: 20px 80px;
     font-size: 18px;
     border: 1px solid #140101;
     height: 700px;
     margin: 0 auto;
     background-color: #ffffff;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .portfolio {
     width: center;
     overflow: auto;
     margin: 10px 80px;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
+/* portfolio.html Image properties below: */
 #image1 {
     float: left;
     margin-left: 20px;
@@ -169,12 +159,13 @@ hr {
     margin-left: 20px;
 }
 
+/* contact.html properties below: */
 
 .contact {
     width: center;
     overflow: auto;
     margin: 10px 80px;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
 #aboutme_header,
@@ -183,31 +174,7 @@ hr {
     color: #4aaaa5;
     margin-left: 20px;
     font-size: 2em;
- }
-
- aside {
-    float: left;
-    width: auto;
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
 }
-
-#para1 {
-    float: left;
-    width: 70%;
-    font-size: 18px;
-    line-height: 27px;
- }
-
- #para2 {
-     clear: both;
-     overflow: auto;
-     font-size: 18px;
-     line-height: 27px;
-     margin-left: 10px;
-     width: 95%
- }
 
 form {
     margin-left: 10px;
@@ -221,7 +188,7 @@ form {
     padding: 2px;
 }
 
- .btn_submit {
+.btn_submit {
     margin-top: 5px;
     margin-left: 10px;
     background-color: #4aaaa5;
@@ -229,8 +196,8 @@ form {
     color: white;
     text-align: center;
     display: inline-block;
-    font-size: 16px; 
- }
+    font-size: 16px;
+}
 
 footer {
     clear: both;
@@ -240,9 +207,10 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #666666;
-    border-top: 8px solid #4aaaa5; /* Per HW Specs */
-    color:#cccccc;
+    border-top: 8px solid #4aaaa5;
+    /* Per HW Specs */
+    color: #cccccc;
     font-size: 16px;
     text-align: center;
     padding: 12px;
-  }
+}
