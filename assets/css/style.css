@@ -9,18 +9,44 @@ body {
     background-image: url(../images/email-pattern.png);
     background-repeat: repeat;
     background-color: black;
+    margin: 0 auto;
+    padding: 0;
 }
 
-#headwrapper {
+header {
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    z-index: 1;
+  }
+
+  #peterw {
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 12px 20px;
+    margin-top: 0px;
+    margin-left: 44px;
+    width: 300px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* #headwrapper {
+        margin: 0 auto;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     border-bottom-width: 100%;
-    padding: 0 0 12px 0;
-    margin: 0 auto;
     margin-bottom: 20px;
     width: 100%;
-    height: auto;
-    text-align: center;
+    height: 60px;
 }
 
 #peterw {
@@ -28,30 +54,34 @@ body {
     color: white;
     background-color: #4aaaa5;
     padding: 12px 20px;
-    display: inline;
-    margin-right: 80px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 180px;
     margin-left: 44px;
+    width: 300px;
 }
 
 #navigate {
     text-align: center;
-    width: 400px;
-    margin-left: 240px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 0px;
     color: #777777;
     font-size: 18px;
     display: inline-block;
+    width: 300px;
     padding: 0px 5px 5px 15px;
 }
 
-span {
-    word-spacing: 10px;
-}
 
-#navigate a {
-    padding: 0 15px;
-    color: #777777;
-}
+#navigate li {
+    display: inline-block;
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+} */
 
+a,
 a:link,
 a:visited {
     color: #777777;
@@ -81,9 +111,11 @@ hr {
     font-size: 18px;
     background-color: #ffffff;
     border: 1px solid #140101;
-    height: 470px;
+    height: 500px;
     margin: 0 auto;
     margin-top: 20px;
+    position: relative:
+    top: 120px;
 }
 
 #myportfolio {
@@ -174,6 +206,7 @@ hr {
      font-size: 18px;
      line-height: 27px;
      margin-left: 10px;
+     width: 95%
  }
 
 form {
